@@ -1,3 +1,9 @@
+import image1 from "../assets/images/4453459-tissu-wax-africain-ankara-wax-100-coton-motif-disques-ti-1.jpeg"
+import image2 from "../assets/images/460501013.png"
+import image3 from "../assets/images/A2Y7JXWZ-large.jpg"
+import image4 from "../assets/images/AF-3989_300x300.jpg"
+import image5 from "../assets/images/AF-4009.jpg"
+import image6 from "../assets/images/OT-3009-2_1024x1024.jpg"
 
 export interface Product {
   id: number;
@@ -21,7 +27,7 @@ export const products: Product[] = [
     category: "Wax",
     size: "6 yards",
     color: "Bleu",
-    image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=500",
+    image: image1,
     inStock: true,
     isNew: true
   },
@@ -33,7 +39,7 @@ export const products: Product[] = [
     category: "Kente",
     size: "4 yards",
     color: "Multicolore",
-    image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901?w=500",
+    image: image2,
     inStock: true
   },
   {
@@ -44,7 +50,7 @@ export const products: Product[] = [
     category: "Bogolan",
     size: "5 yards",
     color: "Marron",
-    image: "https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=500",
+    image: image3,
     inStock: true,
     isNew: true
   },
@@ -56,7 +62,7 @@ export const products: Product[] = [
     category: "Ankara",
     size: "6 yards",
     color: "Orange",
-    image: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=500",
+    image: image4,
     inStock: true
   },
   {
@@ -67,7 +73,7 @@ export const products: Product[] = [
     category: "Wax",
     size: "6 yards",
     color: "Rouge",
-    image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=500",
+    image: image5,
     inStock: true
   },
   {
@@ -78,7 +84,7 @@ export const products: Product[] = [
     category: "Kente",
     size: "4 yards",
     color: "Or",
-    image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901?w=500",
+    image: image6,
     inStock: false
   }
 ];

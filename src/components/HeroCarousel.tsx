@@ -2,24 +2,28 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
+import image1 from "../assets/images/1617021338538-eva-blue-sfpokp6-2ea-unsplash-scaled.jpeg"
+import image2 from "../assets/images/istockphoto-483232645-612x612.jpg"
+import image3 from "../assets/images/tissu-africain-traditionnel-dans-beaucoup-de-modèles-119112138.jpg"
+
 const HeroCarousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const slides = [
     {
-      image: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=800',
+      image: image1,
       title: 'Tissus Wax Authentiques',
       subtitle: 'Découvrez notre collection exclusive',
       cta: 'Voir la Collection'
     },
     {
-      image: 'https://images.unsplash.com/photo-1582562124811-c09040d0a901?w=800',
+      image: image2,
       title: 'Kente de Qualité Premium',
       subtitle: 'Tradition et élégance réunies',
       cta: 'Explorer Maintenant'
     },
     {
-      image: 'https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=800',
+      image: image3,
       title: 'Bogolan Artisanal',
       subtitle: 'Fait main par nos artisans',
       cta: 'Découvrir'
