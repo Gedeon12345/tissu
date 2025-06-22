@@ -17,7 +17,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   const handleWhatsAppOrder = (e: React.MouseEvent) => {
     e.stopPropagation();
     const message = `Bonjour, je suis intéressé(e) par le produit: ${product.name} - ${product.price.toLocaleString()} FCFA`;
-    const whatsappUrl = `https://wa.me/237600000000?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/237693427529?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 
