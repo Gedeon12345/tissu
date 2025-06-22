@@ -23,7 +23,7 @@ const CartModal: React.FC<CartModalProps> = ({ isOpen, onClose }) => {
     const total = getCartTotal();
     const message = `Bonjour, je souhaite commander:\n\n${orderDetails}\n\nTotal: ${total.toLocaleString()} FCFA`;
     
-    const whatsappUrl = `https://wa.me/237600000000?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/237693427529?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 
