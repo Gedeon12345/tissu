@@ -29,7 +29,7 @@ Nouveau contact depuis le site web:
 - Message: ${formData.message}
     `.trim();
 
-    const whatsappUrl = `https://wa.me/237600000000?text=${encodeURIComponent(whatsappMessage)}`;
+    const whatsappUrl = `https://wa.me/237693427529?text=${encodeURIComponent(whatsappMessage)}`;
     window.open(whatsappUrl, '_blank');
 
     // Reset form
